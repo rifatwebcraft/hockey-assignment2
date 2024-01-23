@@ -22,6 +22,7 @@
               colors: {
                 clifford: '#da373d',
                 'oranges': '#FF4240',
+                'desc': '#13131899',
               }
             }
           }
@@ -87,7 +88,8 @@
               </div>
               
             </div>
-            <div class="bg-black lg:mx-auto p-8 lg:w-2/5  rounded-lg lg:-translate-y-60 lg:translate-x-72">
+            <!-- text over image -->
+            <div class="bg-black lg:mx-auto p-8 lg:w-2/5  rounded-lg lg:absolute lg:-translate-y-60 lg:translate-x-full">
               <h4 class="text-2xl font-extrabold text-white">Meet all the heroes from the field</h4>
               <p class="text-[#FFFFFF99] text-base font-medium">The 2023 Stanley Cup playoffs are over. Sixteen teams competed
                   for the most magnificent trophy in sports</p>
@@ -95,8 +97,37 @@
         </div>
         
    </header>
-   <main>
+   <main class="container mx-auto">
+      <!-- proffesional hockey section -->
+      <div class="my-12 text-center">
+        <h2 class="text-4xl font-extrabold my-5">Professional Hockeys Club</h2>
+        <p class="text-base font-medium text-desc mb-12">The HoneyBaked Hockey Club is committed to providing a world-class developmental and competitive <br> hockey experience that emphasizes individual and team skills. </p>
 
+         <!-- progress section -->
+      <div class="flex flex-col lg:flex-row justify-around">
+        <div class="text-center space-y-6">
+          <div class="radial-progress text-red-500" style="--value:87;" role="progressbar">87%</div>
+          <h3 class="text-xl font-semibold">Prayer Facility</h3>
+          <p class="text-base text-desc">Very good improvement in the last year. <br>This is a progress bar.</p>
+        </div>
+        <div class="text-center space-y-6">
+          <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
+          <h3 class="text-xl font-semibold">Prayer Facility</h3>
+          <p class="text-base text-desc">Very good improvement in the last year. <br>This is a progress bar.</p>
+        </div>
+        <div class="text-center space-y-6">
+          <div class="radial-progress text-amber-500" style="--value:90;" role="progressbar">90%</div>
+          <h3 class="text-xl font-semibold">Prayer Facility</h3>
+          <p class="text-base text-desc">Very good improvement in the last year. <br>This is a progress bar.</p>
+        </div>
+        <div class="text-center space-y-6">
+          <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar">80%</div>
+          <h3 class="text-xl font-semibold">Prayer Facility</h3>
+          <p class="text-base text-desc">Very good improvement in the last year. <br>This is a progress bar.</p>
+        </div>
+      </div>
+      </div>
+     
    </main>
    <footer>
 
