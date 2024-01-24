@@ -34,7 +34,7 @@
         }
       </style>
 </head>
-<body class="font-manrop">
+<body class="font-manrop px-3">
    <header class="container mx-auto">
     <!-- navbar section -->
         <nav class="my-12">
@@ -65,7 +65,7 @@
                 </div>
                 <div class="navbar-end">
                   <i class="fa-solid fa-magnifying-glass pr-6 hidden lg:flex"></i>
-                  <a class="rounded-lg bg-oranges text-white text-xl font-bold px-6 py-4">Get Ticket</a>
+                  <a class="rounded-lg bg-oranges text-white text-xl font-bold px-3 py-4 lg:px-6 lg:py-4">Get Ticket</a>
                 </div>
               </div>
         </nav>
@@ -128,7 +128,7 @@
       </div>
       </div>
      <!-- Program section -->
-      <div class=" my-12">
+      <div class=" my-24">
         <div class="text-center">
           <h2 class="text-4xl font-extrabold my-5">Program Sections</h2>
         <p class="text-base font-medium text-desc mb-12">The HoneyBaked Hockey Club is committed to providing a world-class developmental and competitive <br> hockey experience that emphasizes individual and team skills. </p>
@@ -298,7 +298,7 @@
         </div>
      </div>
      <!-- client question section -->
-     <div class="my-12">
+     <div class="my-24">
         <div class="my-12 text-center">
           <h2 class="text-4xl font-extrabold my-5">Clients Question</h2>
           <p class="text-base font-medium text-desc mb-12">The HoneyBaked Hockey Club is committed to providing a world-class developmental and competitive <br> hockey experience that emphasizes individual and team skills. </p>
@@ -372,13 +372,13 @@
           </div>
       </div>
       <!-- get in touch section -->
-      <div class="my-12">
+      <div class="my-12 mb-12">
         <div class="my-12 text-center">
-          <h2 class="text-4xl font-extrabold my-5">Clients Question</h2>
+          <h2 class="text-4xl font-extrabold my-5">Get In Touch</h2>
           <p class="text-base font-medium text-desc mb-12">The HoneyBaked Hockey Club is committed to providing a world-class developmental and competitive <br> hockey experience that emphasizes individual and team skills. </p>
         </div>
         <!-- contact -->
-        <div class="flex flex-col lg:flex-row gap-12">
+        <div class="flex flex-col lg:flex-row justify-between gap-12">
           <div class="space-y-6 border border-[#1313181A] rounded-2xl p-12 lg:w-2/5">
             <div class="bg-[#BCED6D1A] p-9 rounded-xl">
               <img src="Images/Group 1171275317.png" alt="">
@@ -397,42 +397,82 @@
             </div>
           </div>
           <!-- form  -->
-          <div class="grid grid-cols-2 gap-4">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 justify-center">
             <div>
                 <p class="text-xl font-bold mb-4">Your Name</p>
-                <input type="text" placeholder="Enter Your Full Name" class="bg-[#13131808] p-5 lg:pr-40 rounded-xl">
+                <input type="text" placeholder="Enter Your Full Name" class="bg-[#13131808] p-5 pr-44 rounded-xl">
             </div>
             <div>
               <label for="">
                 <p class="text-xl font-bold mb-4">Your Email</p>
-                <input type="email" placeholder="Enter Your Email" class="bg-[#13131808] p-5 lg:pr-40 rounded-xl">
+                <input type="email" placeholder="Enter Your Email" class="bg-[#13131808] p-5 pr-44 rounded-xl">
               </label>
             </div>
             <div>
               <label for="">
                 <p class="text-xl font-bold mb-4">Subject</p>
-                <input type="text" placeholder="Enter Your Subject" class="bg-[#13131808] p-5 pr-40 rounded-xl">
+                <input type="text" placeholder="Enter Your Subject" class="bg-[#13131808] p-5 pr-44 rounded-xl">
               </label>
             </div>
             <div>
               <label for="">
                 <p class="text-xl font-bold mb-4">Phone Number</p>
-                <input type="number" placeholder="Enter Your Phone Number" class="bg-[#13131808] p-5 pr-40 rounded-xl">
+                <input type="number" placeholder="Enter Your Phone Number" class="bg-[#13131808] p-5 pr-44 rounded-xl">
               </label>
             </div>
-            <div class="col-span-2">
+            <div class="lg:col-span-2">
               <label for="" >
                 <p class="text-xl font-bold mb-4">Message</p>
-                <textarea name="Wri" id="" cols="" rows="10" placeholder="Write Your Message" class="bg-[#13131808] p-5 pr-40 rounded-xl w-full h-auto"></textarea>
+                <textarea name="Wri" id="" cols="" rows="10" placeholder="Write Your Message" class="bg-[#13131808] p-5 rounded-xl w-full h-auto"></textarea>
               </label>
             </div>
-            <button class="rounded-lg bg-oranges col-span-2 text-white text-xl font-bold px-3 py-3">Send Message</button>
+            <button class="rounded-lg bg-oranges lg:col-span-2 text-white text-xl font-bold px-3 py-3">Send Message</button>
+          </div>
+        </div>
+        <div class=" my-12 text-center py-9 bg-[#13131808] rounded-lg">
+          <h3 class="text-2xl font-extrabold">Social Media</h3>
+          <div class="mt-4 space-x-5">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
           </div>
         </div>
       </div>
    </main>
-   <footer>
-
-   </footer> 
+   <footer class="footer text-center p-10 bg-base-200 text-base-content text-[#FFFFFF99] bg-black">
+      <aside class="mx-auto text-center">
+        <h3 class="text-xl font-semibold">Get In Touch</h3>
+        <p>If you needed , contact us. <br>Visit my office .</p>
+        <span><i class="fa-regular fa-envelope text-red-500 pr-3"></i>hockeys@support.com</span>
+        <span><i class="fa-solid fa-phone text-red-500 pr-3"></i>(+62) 123-321-543</span>
+      </aside> 
+      <div class="flex justify-between space-x-10 lg:space-x-48 mx-auto">
+        <nav class="grid grid-cols-1 gap-3">
+          <header class="text-xl font-semibold">Company</header> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Leadership</a>
+          <a class="link link-hover">Careers</a>
+          <a class="link link-hover">News & Article</a>
+          <a class="link link-hover">Legal Notice</a>
+        </nav> 
+        <nav class="grid grid-cols-1 gap-3">
+          <header class="text-xl font-semibold">Support</header> 
+          <a class="link link-hover">Help Center</a>
+          <a class="link link-hover">FAQ</a>
+          <a class="link link-hover">Ticket Support</a>
+          <a class="link link-hover">Contact Us</a>
+        </nav> 
+      </div>
+      <nav class="mx-auto text-center">
+        <header class="text-xl font-semibold">Services</header> 
+        <a class="link link-hover">Academy</a>
+        <a class="link link-hover">Group Lesson</a>
+        <a class="link link-hover">Private Lesson</a>
+        <a class="link link-hover">Hockeys for kids</a>
+        <a class="link link-hover">Hockeys for Adult</a>
+      </nav> 
+      
+    </footer> 
 </body>
 </html>
